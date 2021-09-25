@@ -100,8 +100,9 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.footer-row1 i{
+.footer-row1 a i{
     margin-right:2em;
+    color: #00d2b5;
 }
 .footer-row1 i:hover{
     color: #068171;
@@ -111,4 +112,335 @@
     
     margin-top: 2em;
     margin-bottom: 3em;
+}
+.faq-row{
+    height: 100vh;
+}
+.chat-box{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 4rem;
+    height: 90vh;
+}
+
+.chat-right{
+    position: relative;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    width: fit-content;
+    max-width: 75%;
+    border-radius: 50px;
+    background-color: #00d2b5;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.chat-right-info{
+    display: none;
+    position: absolute;
+    top: -1.5rem;  
+    color: black; 
+    opacity: 0.8;
+}
+.chat-right:hover{
+    transform: translateY(1.2rem);    
+}
+.chat-right:hover .chat-right-info{
+    display: block;    
+}
+.chat-left{
+    position: relative;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    padding-left: 1.5rem;;
+    width: fit-content;
+    max-width: 75%;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: #000;
+    transition: 0.4s ease-in-out;
+    
+    
+}
+/* .chat-left::before{
+    content: "";
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    bottom: -0px;
+    left: 0;
+    border-top: 40px solid #00d2b5;
+    border-left: 20px solid #00d2b5;
+    border-top-left-radius: 120px;
+    rotate: 240deg;
+    z-index: 1;
+} */
+/* .chat-right::after{
+    content: "";
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    bottom: -0px;
+    right: 0;
+    border-top: 20px solid #00d2b5;
+    border-left: 40px solid #00d2b5;
+    border-top-left-radius: 120px;
+    rotate: 120deg;
+} */
+.chat-left-info{
+    display: none;
+    position: absolute;
+    top: -1.5rem;  
+    color: black; 
+    opacity: 0.8;  
+}
+.chat-left:hover{
+    transform: translateY(1.2rem);    
+}
+
+.chat-left:hover .chat-left-info{
+    display: block; 
+}
+
+
+
+
+
+.address-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+} 
+.address,
+.talk
+.general-support{
+    display: flex;
+    justify-content: flex-start;
+}
+.address-text,
+.general-support-text,
+.talk-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.address-text p,
+.talk-text p,
+.general-support p{
+    color: #00d2b5;
+}
+.address-text p,
+.general-support-text p,
+.talk-text p,
+.general-support p:hover{
+    cursor: pointer;
+}
+
+.talk-logo,
+.general-support-logo{
+    padding-top: 2em;
+    position: relative;
+    top: 1.5em;
+}
+.round-left{
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 3em;
+    width: 3em;
+    background-color: #00d2b5;
+    color: #fff;
+    border-radius: 200px;
+    display: flex;
+    padding: 0px;
+    padding-top: .6em;
+}
+.draw-col-1{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.draw-col-2-text h5{
+    font-size: 1.3em;
+}
+.draw-col-2-text p{
+    font-size: 1.3em;
+    opacity: 0.8;
+}
+.draw-col-2-text-align{
+    text-align: end;
+    align-content: center;
+}
+.draw-row2{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 9%;
+}
+.draw-row-2-col-1{
+    position: relative;
+    height: 4em;
+    border-bottom: 4px solid #00d2b5;
+    border-left: 4px solid #00d2b5;
+    border-bottom-left-radius: 15px;
+}
+.draw-row-2-col-2, .draw-row-2-col-3{
+    
+    border-bottom: 4px solid #00d2b5;    
+}
+.draw-row3{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.draw-row4{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 6%;
+}
+.draw-row5{
+    display: flex;
+    padding-left: 9%;
+    padding-right: 8%;
+}
+.draw-row6{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.draw-row7{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+
+.draw-row-3-col-3{
+    
+    border-right: 4px solid #00d2b5;
+    border-top-right-radius: 20px;
+}
+.draw-row-4-col-3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.round-right{
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 3em;
+    width: 3em;
+    background-color: #00d2b5;
+    color: #fff;
+    border-radius: 200px;
+    display: flex;
+    padding: 0px;
+    padding-top: .6em;
+    
+}
+.draw-row-5-col-1, .draw-row-5-col-2{
+    border-bottom: 4px solid #00d2b5;
+
+}
+.draw-row-5-col-3{
+    border-bottom: 4px solid #00d2b5;
+    border-right: 4px solid #00d2b5;
+    border-bottom-right-radius: 15px;
+
+}
+.draw-row-6-col-1 {
+    border-left: 4px solid #00d2b5;
+    border-top-left-radius: 15px;
+}
+.draw2-col-1{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.draw2-row2{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.draw2-row3{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 9%;
+}
+.draw2-row4{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+.draw2-row5{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 10%;
+}
+.draw2-row6{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 9%;
+}
+.draw2-row7{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.draw2-row-1-col-3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.draw2-row-2-col-3{
+    border-right: 4px solid #00d2b5;
+    border-bottom:4px solid #00d2b5;
+    border-bottom-right-radius: 15px;
+}
+.draw2-row-2-col-1, .draw2-row-2-col-2{
+    border-bottom: 4px solid #00d2b5;
+}
+.draw2-row-3-col-1{
+    border-left:4px solid#00d2b5;
+    border-top-left-radius: 15px;
+
+}
+.draw2-row-5-col-1{
+    border-left: 4px solid #00d2b5;
+    border-bottom-left-radius: 15px;
+    border-bottom: 4px solid #00d2b5;
+
+}
+.draw2-row-5-col-3, .draw2-row-5-col-2{
+    border-bottom: 4px solid #00d2b5;
+}
+.draw2-row-6-col-3{
+    border-right: 4px solid #00d2b5;
+    border-top-right-radius: 15px;
+}
+.draw2-row-7-col-3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.draw2-row-3-col-2{
+    display: flex;
+    align-items: flex-end;
+}
+.draw-row-3-col-2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
