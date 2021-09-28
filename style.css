@@ -48,6 +48,7 @@
     height: 320px;
     background-color: #fff;
     transition: 0.2s ease-in-out;
+    overflow: hidden;
 }
 .card-1:hover{
     background-color: #00d2b5;
