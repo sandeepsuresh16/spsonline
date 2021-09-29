@@ -18,3 +18,4 @@ function myFunctionFive(){
     document.getElementById('image5').style.display="none";
     document.getElementById('vid5').style.display="block";
 }
+

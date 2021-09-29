@@ -1,4 +1,9 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
 .row-1-logo{
     text-decoration: none;    
     font-weight: 400;
@@ -48,7 +53,8 @@
     height: 320px;
     background-color: #fff;
     transition: 0.2s ease-in-out;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .card-1:hover{
     background-color: #00d2b5;
@@ -478,7 +484,7 @@
     position: relative;
    padding: 2rem;
    text-align: end;
-   padding-right: 7rem;
+   /* padding-right: 7rem; */
    border-right: 4px solid #00d2b5;
    border-bottom: 4px solid #00d2b5;
    border-bottom-right-radius: 15px;
@@ -490,7 +496,7 @@
     padding: 2rem;
     margin-top: -4px;
     text-align: start;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
     border-left: 4px solid #00d2b5;
     border-top: 4px solid #00d2b5;
     border-bottom: 4px solid #00d2b5;
@@ -502,7 +508,7 @@
     position: relative;
    padding: 2rem;
    text-align: end;
-   padding-right: 7rem;
+   /* padding-right: 7rem; */
    border-right: 4px solid #00d2b5;
    border-top: 4px solid #00d2b5;
    border-top-right-radius: 15px;
@@ -605,7 +611,7 @@
     position: relative;
     padding: 2rem;
     text-align: start;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
     border-left: 4px solid #00d2b5;
     border-bottom: 4px solid #00d2b5;
     border-bottom-left-radius: 15px;
@@ -617,7 +623,7 @@
     padding: 2rem;
     margin-top: -4px;
     text-align: end;
-    padding-right: 7rem;
+    /* padding-right: 7rem; */
     border-right: 4px solid #00d2b5;
     border-top: 4px solid #00d2b5;
     border-bottom: 4px solid #00d2b5;
@@ -629,7 +635,7 @@
     position: relative;
    padding: 2rem;
    text-align: end;
-   padding-left: 7rem;
+   /* padding-left: 7rem; */
    border-left: 4px solid #00d2b5;
    border-top: 4px solid #00d2b5;
    border-top-left-radius: 15px;
@@ -702,3 +708,28 @@
     bottom: 0px;
     left: -4px;
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00d2b5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 3rem;
+
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(143, 103, 236); /* Add a dark-grey background on hover */
+  }
